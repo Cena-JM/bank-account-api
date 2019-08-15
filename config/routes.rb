@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :clients
       resources :bank_accounts
       resources :account_transactions
+      resources :send_receives
     end
   end
 end
